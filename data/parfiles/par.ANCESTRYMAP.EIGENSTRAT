@@ -1,7 +1,7 @@
-genotypename:    ../ANCESTRYMAP/data.geno
-snpname:         ../ANCESTRYMAP/data.snp
-indivname:       ../ANCESTRYMAP/data.ind
+genotypename:    ../data/ANCESTRYMAP/data.geno
+snpname:         ../data/ANCESTRYMAP/data.snp
+indivname:       ../data/ANCESTRYMAP/data.ind
 outputformat:    EIGENSTRAT
-genotypeoutname: ../EIGENSTRAT/data.eigenstratgeno
-snpoutname:      ../EIGENSTRAT/data.snp
-indivoutname:    ../EIGENSTRAT/data.ind
+genotypeoutname: ../data/EIGENSTRAT/data.eigenstratgeno
+snpoutname:      ../data/EIGENSTRAT/data.snp
+indivoutname:    ../data/EIGENSTRAT/data.ind
