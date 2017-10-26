@@ -1,4 +1,4 @@
-setwd('./01_QC')
+setwd('../data/hgdp/01_QC/')
 x<-read.table("clean-inds-hgdp-data.lmiss",header=T)
 ylabels=c("0","20K","40K","60K","80K","100K")
 xlabels=c("0.0001","0.001","0.01","0.1","1")
