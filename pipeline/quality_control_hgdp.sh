@@ -10,7 +10,6 @@ grep PROBLEM ../data/hgdp/01_QC/hgdp.sexcheck > ../data/hgdp/01_QC/hgdp_problem
 # Identification of individuals with elevated missing data rates or outlying heterozygosity rate 
 # find missing SNP; output = hgdp.imiss and hgdp.lmiss file
 echo "Identify individuals with elevated missing data rates"
-
 ../bin/plink --bfile ../data/hgdp/00_data/hgdp --missing --out ../data/hgdp/01_QC/hgdp
 # find heterozygous genotypes; output = hgdp.het file
 echo "Identify individuals with elevated outlying heterozygosity rates"
@@ -74,7 +73,7 @@ echo "Identifying markers with excessiving missing data rate"
 # genotype failure rate
 # paper used call-rate threshold of 3% 
 echo "Plotting histogram of missing genotype rate"
-R CMD BATCH ../src/qc/lmiss-hist.Rscript ./data/hgdp/01_QC/hgdp-R-miss-geno
+R CMD BATCH ../src/qc/lmiss-hist.Rscript ../data/hgdp/01_QC/hgdp-R-miss-geno
 
 # SKIPPED: Test markers for different genotype call rates between cases and contols
 
@@ -82,6 +81,6 @@ R CMD BATCH ../src/qc/lmiss-hist.Rscript ./data/hgdp/01_QC/hgdp-R-miss-geno
 # geno = filters out samples exceeding missing genotype rate of 3% 
 # maf = filters out below minor allele frequency threshold 
 # hwe = filters out below Hardy-Weinberg equilibrium exact test p-value
-plink --bed ./data/hgdp/00_data/clean-inds-hgdp-data.bed --bim ./data/hgdp/00_data/clean-inds-hgdp-data.bim --fam ./data/hgdp/00_data/clean-inds-hgdp-data.fam -maf 0.01 --geno 0.03 --hwe 0.00001 --make-bed --out ./data/hgdp/00_data/clean-hgdp-data
+plink --bed ../data/hgdp/00_data/clean-inds-hgdp-data.bed --bim ../data/hgdp/00_data/clean-inds-hgdp-data.bim --fam ../data/hgdp/00_data/clean-inds-hgdp-data.fam -maf 0.01 --geno 0.03 --hwe 0.00001 --make-bed --out ../data/hgdp/00_data/clean-hgdp-data
 
 
