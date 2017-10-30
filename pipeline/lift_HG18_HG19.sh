@@ -14,7 +14,7 @@ gawk '{print "chr"$1, $4, $4+1, $2}' OFS="\t" ../data/hgdp/00_data/clean-hgdp-da
 
 # perform liftover 
 # left out bedPlus = 4 argument bc would hve treated first 4 cols as BED; unsure if appropriate  
-./liftOver ../data/hgdp/00_data/clean-hgdp-data_HG18.BED ../liftover/hg18ToHg19.over.chain ../data/hgdp/00_data/clean-hgdp-data.HG19.BED ../data/hgdp/00_data/clean-hgdp-data_unmapped.txt
+../bin/liftOver ../data/hgdp/00_data/clean-hgdp-data_HG18.BED ../liftover/hg18ToHg19.over.chain ../data/hgdp/00_data/clean-hgdp-data.HG19.BED ../data/hgdp/00_data/clean-hgdp-data_unmapped.txt
 
 # create list of unmapped SNPs 
 gawk '/^[^#]/ {print $4}' ../data/hgdp/00_data/clean-hgdp-data_unmapped.txt > ../data/hgdp/00_data/clean-hgdp-data_unmappedSNPs.txt
