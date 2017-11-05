@@ -6,6 +6,9 @@
 # make bed, bim, fam files including only chr 1
 ../bin/plink --file ../data/hgdp/00_data/clean-hgdp-data_HG19_chr_1 --make-bed --out ../data/hgdp/00_data/clean-hgdp-data_HG19_chr_1
 
+# check strand alignment before pre-phasing 
+# ../bin/shapeit -check -P chr${chr}.unphased --input-ref $REF_DIR/$REF_PREFIX$chr$REF_SUFFIX.hap.gz $REF_DIR$REF_PREFIX$chr$REF_SUFFIX.legend.gz  $REF_DIR$REF_PREFIX.sample --output-log $OUT_PREFIXchr${chr}.alignments
+
 # phase using SHAPEIT
 ../bin/shapeit --input-ped ../data/hgdp/00_data/clean-hgdp-data_HG19_chr_1.ped ../data/hgdp/00_data/clean-hgdp-data_HG19_chr_1.map \
 --input-map ../data/hgdp/00_data/1000GP_Phase3/genetic_map_chr1_combined_b37.txt \
