@@ -81,6 +81,11 @@ R CMD BATCH ../src/qc/lmiss-hist.Rscript ../data/hgdp/01_QC/hgdp-R-miss-geno
 # geno = filters out samples exceeding missing genotype rate of 3% 
 # maf = filters out below minor allele frequency threshold 
 # hwe = filters out below Hardy-Weinberg equilibrium exact test p-value
-plink --bed ../data/hgdp/00_data/clean-inds-hgdp-data.bed --bim ../data/hgdp/00_data/clean-inds-hgdp-data.bim --fam ../data/hgdp/00_data/clean-inds-hgdp-data.fam -maf 0.01 --geno 0.03 --hwe 0.00001 --make-bed --out ../data/hgdp/00_data/clean-hgdp-data
+plink \
+--bed ../data/hgdp/00_data/clean-inds-hgdp-data.bed \
+--bim ../data/hgdp/00_data/clean-inds-hgdp-data.bim \
+--fam ../data/hgdp/00_data/clean-inds-hgdp-data.fam \
+-maf 0.01 --geno 0.03 --hwe 0.00001 --make-bed \
+--out ../data/hgdp/00_data/clean-hgdp-data
 
 

@@ -1,0 +1,134 @@
+Europe 
+1950                   Altai            2            1      PROBLEM       0.9418
+1951                Denisova            2            1      PROBLEM       0.9709
+1954                    Mez1            2            1      PROBLEM            1
+1960         Skoglund_farmer            2            1      PROBLEM            1
+
+FuQ2.2M
+  10       I0909.damage            2            1      PROBLEM            1
+  15       I0869.damage            2            1      PROBLEM            1
+  16       I0878.damage            2            1      PROBLEM            1
+  18       I0907.damage            2            1      PROBLEM            1
+  19       I9050.damage            2            1      PROBLEM            1
+  20     Ranchot.damage            2            1      PROBLEM            1
+  21   Bockstein.damage            2            1      PROBLEM            1
+  22       Ofnet.damage            2            1      PROBLEM            1
+  34            Rigney2            2            1      PROBLEM            1
+  48              I0061            0            1      PROBLEM            1
+
+Mathfull
+   1        I0235            2            1      PROBLEM            1
+   2        I0234            2            1      PROBLEM            1
+   3        I0421            2            1      PROBLEM            1
+   4        I0431            2            1      PROBLEM            1
+   7        I0354            2            1      PROBLEM            1
+  12        I0418            2            1      PROBLEM            1
+  21        I0358            2            1      PROBLEM            1
+  23        I0359            2            1      PROBLEM            1
+  26        I0441            2            1      PROBLEM            1
+  29        I0357            2            1      PROBLEM            1
+  34        I1276            2            1      PROBLEM            1
+  37        I1280            2            1      PROBLEM            1
+  40        I1272            2            1      PROBLEM            1
+  41        I1281            2            1      PROBLEM            1
+  42        I1300            2            1      PROBLEM            1
+  46        I0560            2            1      PROBLEM            1
+  47        I1546            2            1      PROBLEM            1
+  50        I0113            2            1      PROBLEM            1
+  51        I0112            2            1      PROBLEM            1
+  53        I0060            2            1      PROBLEM            1
+  54        I0111            2            1      PROBLEM            1
+  55        I0108            2            1      PROBLEM            1
+  56        I0171            2            1      PROBLEM            1
+  57        I0059            2            1      PROBLEM            1
+  62        I1539            2            1      PROBLEM            1
+  64        I0106            2            1      PROBLEM            1
+  68        I0049            2            1      PROBLEM            1
+  72        I0550            2            1      PROBLEM            1
+  74        I0057            2            1      PROBLEM            1
+  77        I0046            2            1      PROBLEM            1
+  80        I0176            2            1      PROBLEM            1
+  82        I0409            2            1      PROBLEM            1
+  86        I0115            2            1      PROBLEM            1
+  87        I0117            2            1      PROBLEM            1
+  89        I0803            2            1      PROBLEM            1
+  90        I0047            2            1      PROBLEM            1
+  91        I0164            2            1      PROBLEM            1
+  93        I0022            2            1      PROBLEM            1
+  94        I0026            2            1      PROBLEM            1
+  96        I0011            2            1      PROBLEM            1
+  99        I0014            2            1      PROBLEM            1
+ 101        I1508            2            1      PROBLEM            1
+ 103        I1100            2            1      PROBLEM            1
+ 110        I1579            2            1      PROBLEM            1
+ 111        I1581            2            1      PROBLEM            1
+ 113        I1580            2            1      PROBLEM            1
+ 114        I1098            2            1      PROBLEM            1
+ 115        I1585            2            1      PROBLEM            1
+ 120        I0707            2            1      PROBLEM            1
+ 122        I0725            2            1      PROBLEM            1
+ 125        I0736            2            1      PROBLEM            1
+ 126        I1499            2            1      PROBLEM            1
+ 127        I1502            2            1      PROBLEM            1
+ 128        I1497            2            1      PROBLEM            1
+ 130        I1498            2            1      PROBLEM            1
+ 133        I1506            2            1      PROBLEM            1
+ 135        I1505            2            1      PROBLEM            1
+ 139       RISE00            2            1      PROBLEM            1
+ 142       RISE71            2            1      PROBLEM            1
+ 144       RISE97            2            1      PROBLEM            1
+ 146      RISE109            2            1      PROBLEM            1
+ 147      RISE150            2            1      PROBLEM            1
+ 148      RISE154            2            1      PROBLEM            1
+ 152      RISE240            2            1      PROBLEM            1
+ 156      RISE349            2            1      PROBLEM            1
+ 157      RISE371            2            1      PROBLEM            1
+ 158      RISE373            2            1      PROBLEM            1
+ 161      RISE391            2            1      PROBLEM            1
+ 163      RISE394            2            1      PROBLEM            1
+ 164      RISE395            2            1      PROBLEM            1
+ 167      RISE435            2            1      PROBLEM            1
+ 172      RISE480            2            1      PROBLEM            1
+ 173      RISE483            2            1      PROBLEM            1
+ 174      RISE484            2            1      PROBLEM            1
+ 178      RISE500            2            1      PROBLEM            1
+ 179      RISE503            2            1      PROBLEM            1
+ 180      RISE505            2            1      PROBLEM            1
+ 181      RISE507            2            1      PROBLEM            1
+ 182      RISE508            2            1      PROBLEM            1
+ 183      RISE509            2            1      PROBLEM            1
+ 184      RISE510            2            1      PROBLEM            1
+ 185      RISE511            2            1      PROBLEM            1
+ 193      RISE559            2            1      PROBLEM            1
+ 195      RISE562            2            1      PROBLEM            1
+ 199      RISE568            2            1      PROBLEM            1
+ 200      RISE569            2            1      PROBLEM            1
+ 201      RISE577            2            1      PROBLEM            1
+ 202      RISE586            2            1      PROBLEM            1
+ 205    Loschbour            2            1      PROBLEM            1
+ 209        I0422            2            1      PROBLEM            1
+ 210        I0854            2            1      PROBLEM            1
+ 211        I1271            2            1      PROBLEM            1
+ 213        I1549            2            1      PROBLEM            1
+ 214        I1550            2            1      PROBLEM            1
+ 215        I0100            2            1      PROBLEM            1
+ 216        I0407            2            1      PROBLEM            1
+ 217        I0025            2            1      PROBLEM            1
+ 223        I0726            2            1      PROBLEM            1
+ 224        I0103            2            1      PROBLEM            1
+ 226        I0408            2            1      PROBLEM            1
+ 228        I0054            2            1      PROBLEM            1
+ 232        I0118            2            1      PROBLEM            1
+ 235        I0413            2            1      PROBLEM            1
+
+ScythianSarmatian
+   1   I0576            2            1      PROBLEM            1
+   2   I0574            2            1      PROBLEM            1
+   5   I0562            2            1      PROBLEM            1
+   8    Ze6b            2            1      PROBLEM            1
+
+Sko
+  71   Lapita_Vanuatu:I1368            2            1      PROBLEM            1
+  72   Lapita_Vanuatu:I1369            2            1      PROBLEM            1
+  73   Lapita_Vanuatu:I1370            2            1      PROBLEM            1
+  74      Lapita_Tonga:Sk10            2            1      PROBLEM            1
