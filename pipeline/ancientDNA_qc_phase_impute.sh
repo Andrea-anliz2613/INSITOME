@@ -118,8 +118,6 @@ R CMD BATCH script/lmiss-hist.Rscript ${QC_DIR}Sko-R-miss-geno
 
 #Error: All variants excluded due to missing genotype data (--geno).
 # ERROR FOUND IN Mathfull, FUQ2.2M and FUQ0.9
-# 17 Nov 25: Will phase the raw files for those three above 
-
 
 plink --bed ${QC_DIR}clean-inds-Sko-data.bed --bim ${QC_DIR}clean-inds-Sko-data.bim --fam ${QC_DIR}clean-inds-Sko-data.fam \
 -maf 0.01 --geno 0.03 --hwe 0.00001 --make-bed --out ${QC_DIR}clean-Sko-data
