@@ -1,4 +1,4 @@
-
+## must change directories towards end; not set up like other scripts 
 ROOT_DIR=./
 INSITOME_DATA_DIR=00_data/insitomedata/
 QC_DIR=${ROOT_DIR}01_QC/ancientDNA_qc/
