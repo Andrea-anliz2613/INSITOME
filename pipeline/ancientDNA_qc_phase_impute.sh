@@ -284,6 +284,7 @@ plink \
 
 # StMarys ERROR 
 # Same error as Europe 
+# Error: Duplicate ID 'rs10737260'.
 # Error: Line 1 of --remove file has fewer tokens than expected.
 plink \
 --file ${INSITOME_DATA_DIR}clean_QC_marker_StMarys_chr1 \
