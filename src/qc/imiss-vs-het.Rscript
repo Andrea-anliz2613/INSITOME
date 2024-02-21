@@ -1,0 +1,26 @@
+setwd('../data/hgdp/01_QC/')
+imiss=read.table("hgdp.imiss",h=T)
+imiss$logF_MISS = log10(imiss[,6])
+het=read.table("hgdp.het",h=T)
+het$meanHet = (het$N.NM. - het$O.HOM.)/het$N.NM.
+library("geneplotter")
+colors  <- densCols(imiss$logF_MISS,het$meanHet)
+pdf("raw-hgdp-data.imiss-vs-het.pdf")
+plot(imiss$logF_MISS,het$meanHet, col=colors, xlim=c(-3,0),ylim=c(0,0.5),pch=20, xlab="Proportion of missing genotypes", ylab="Heterozygosity rate",axes=F)
+axis(2,at=c(0,0.05,0.10,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5),tick=T)
+axis(1,at=c(-3,-2,-1,0),labels=c(0.001,0.01,0.1,1))
+abline(h=mean(het$meanHet)-(2*sd(het$meanHet)),col="RED",lty=2)
+abline(h=mean(het$meanHet)+(2*sd(het$meanHet)),col="RED",lty=2)
+abline(v=-1.522879, col="RED", lty=2)
+
+# subset the values that will be excluded: 
+# check your upper and lower limits: +3 sd away from mean and -3 sd away from mean
+# mean(het$meanHet)-(2*sd(het$meanHet))
+# mean(het$meanHet)+(2*sd(het$meanHet))
+
+het_ex = het[which(het$meanHet > 0.3365223 | het$meanHet < 0.2278569), ]
+# write out the excluded files and het files as csvs 
+write.csv(het_ex, file="het_exclude.csv")
+write.csv(het, file="het.csv")
+# write out FID and IID as text files to appropriate folder 
+write.table(het_ex[,1:2], file="fail-imisshet-qc.txt", sep="\t", row.names=FALSE, quote=FALSE)

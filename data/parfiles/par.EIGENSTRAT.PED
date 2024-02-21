@@ -1,0 +1,7 @@
+genotypename:    ../data/EIGENSTRAT/data.eigenstratgeno
+snpname:         ../data/EIGENSTRAT/data.snp
+indivname:       ../data/EIGENSTRAT/data.ind
+outputformat:    PED
+genotypeoutname: ../data/PED/data.ped
+snpoutname:      ../data/PED/data.pedsnp
+indivoutname:    ../data/PED/data.pedind
